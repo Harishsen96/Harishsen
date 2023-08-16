@@ -1,0 +1,30 @@
+.header {
+    background-color: #50504c;
+    ;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(242, 239, 244);
+}
+
+@media screen and (max-width: 500px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 5px 0;
+    }
+}

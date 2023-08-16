@@ -1,0 +1,10 @@
+/* Style the table rows based on odd or even index */
+.ant-table-tbody {
+    background-color: #50504c;
+    color: white;
+}
+  
+.ant-table-tbody :hover{
+    background-color:white !important;
+    color: #50504c !important;
+}
